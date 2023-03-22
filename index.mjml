@@ -1,35 +1,94 @@
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-accordion border="none" padding="1px" />
-      <mj-accordion-element icon-wrapped-url="https://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="https://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
-      <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="18px" />
-      <mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="14px" />
+      <!-- Backgound Color -->
+      <mj-class name="dark-green" background-color="#006853" />
+      <mj-class name="light-green" background-color="#E2FEEF" />
+      <mj-class name="cream" background-color="#F7F2ED" />
+
+      <!-- Font Style -->
+      <mj-class name="h-1" font-size="28px" line-height="33px" font-weight="bold" />
+      <mj-class name="h-2" font-size="24px" line-height="29px" font-weight="bold" />
+      <mj-class name="h-3" font-size="18px" line-height="21px" font-weight="bold" />
+      <mj-class name="p-1" font-size="16px" line-height="19px" />
+      <mj-class name="p-2" font-size="14px" line-height="19px" />
+
+      <!-- MJML Attributes   -->
+      <mj-text font-family="Helvetica, Arial" color="#006853" padding="0" />
+      <mj-button background-color="#006853" color="#FFFFFF" font-size="12px" line-height="15px" font-weight="bold" border-radius="45px" inner-padding="18px" padding="0" />
+      <mj-image padding="0" />
+      <mj-divider border-color="#006853" border-width="1px" padding="30px 18px 30px 18px" />
+      <mj-section background-color="#E2FEEF" padding="0" />
     </mj-attributes>
   </mj-head>
 
-  <mj-body>
-    <mj-section padding="20px" background-color="#ffffff">
-      <mj-column background-color="#dededd">
-        <mj-accordion>
-          <mj-accordion-element>
-            <mj-accordion-title>Why use an accordion?</mj-accordion-title>
-            <mj-accordion-text>
-              <span style="line-height:20px">
-                Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
-              </span>
-            </mj-accordion-text>
-          </mj-accordion-element>
-          <mj-accordion-element>
-            <mj-accordion-title>How it works</mj-accordion-title>
-            <mj-accordion-text>
-              <span style="line-height:20px">
-                Content is stacked into tabs and users can expand them at will. If responsive styles are not supported (mostly on desktop clients), tabs are then expanded and your content is readable at once.
-              </span>
-            </mj-accordion-text>
-          </mj-accordion-element>
-        </mj-accordion>
+  <mj-body background-color="#FFFFFF">
+
+    <!-- Hero Image -->
+    <mj-section background-color="#006853" padding="0">
+      <mj-column>
+        <mj-image src="https://www.mailjet.com/images/theme/v1/icons/illustrations/rocket.png" alt="rocket" padding="0" />
       </mj-column>
     </mj-section>
+
+    <!-- Massage Section -->
+    <mj-section background-color="#E2FEEF" padding="0">
+      <mj-column>
+        <mj-text font-size="16px" line-height="19px" padding="0 18px 0 18px" color="#006853">
+          <p>Hi {{name}},</p>
+          <p>Thank you for subscribing to our newsletter.</p>
+          <p>Here is your discount code: <strong>{{discount_code}}</strong></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-section background-color="#E2FEEF" padding="0">
+      <mj-column>
+        <mj-divider border-color="#006853" border-width="1px" padding="30px 18px 30px 18px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Recipe Granola -->
+    <mj-section background-color="#F7F2ED" padding="0">
+      <mj-column>
+        <mj-image src="https://www.mailjet.com/images/theme/v1/icons/illustrations/recipe.png" alt="recipe" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Waves Images -->
+    <mj-section background-color="#F7F2ED" padding="0">
+      <mj-column>
+        <mj-image src="https://www.mailjet.com/images/theme/v1/icons/illustrations/waves.png" alt="waves" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- All Falavours Section -->
+    <mj-section background-color="#F7F2ED" padding="0">
+      <mj-column>
+        <mj-text font-size="16px" line-height="19px" padding="0 18px 0 18px" color="#006853">
+          <p>Hi {{name}},</p>
+          <p>Thank you for subscribing to our newsletter.</p>
+          <p>Here is your discount code: <strong>{{discount_code}}</strong></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#006853" padding="0">
+      <mj-column>
+        <mj-text font-size="16px" line-height="19px" padding="0 18px 0 18px" color="#FFFFFF">
+          <p>© 2018 Mailjet SAS</p>
+        </mj-text>
+      </mj-column>
+
+
+
+
+
+
+
+
+
   </mj-body>
 </mjml>

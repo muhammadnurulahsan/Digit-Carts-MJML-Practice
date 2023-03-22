@@ -1,5 +1,8 @@
 <mjml>
   <mj-head>
+    <mj-preview>
+      Cat't find Lavva? We'll come to you.
+    </mj-preview>
     <mj-attributes>
       <!-- Backgound Color -->
       <mj-class name="dark-green" background-color="#006853" />
@@ -31,6 +34,7 @@
           padding-top: 20px !important;
 
         }
+        
       }
     </mj-style>
   </mj-head>
@@ -130,7 +134,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding="0px 18px 0px 18px" direction="ltr">
+    <mj-section padding="0px 18px 30px 18px" direction="ltr">
       <mj-column>
         <mj-raw>
           <img width="100%" src="https://klaver.design/lavva/granola.png" alt="Bowl full of granola and lavva" />
@@ -192,7 +196,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section mj-class="cream" padding="0px 18px 18px 18px">
+    <mj-section mj-class="cream" padding="0px 18px 30px 18px">
       <mj-column>
         <mj-raw>
           <img width="100%" src="https://klaver.design/lavva/blueberry.png" alt="Blueberry Flavour" />
@@ -220,10 +224,18 @@
     </mj-section>
 
     <!-- Footer -->
-    <mj-section>
-      <mj-column>
-        <mj-text font-size="16px" line-height="19px" padding="0 18px 0 18px" color="#FFFFFF">
-          <p>© 2018 Mailjet SAS</p>
+    <mj-section mj-class="dark-green">
+      <mj-column padding-top="30px" padding-bottom="30px">
+        <mj-image width="75px" src="https://klaver.design/lavva/logo.png" alt="Logo" />
+        <mj-text align="center" padding-top="30px" padding-bottom="30px">
+          <mj-image width="75px" src="https://klaver.design/lavva/facebook.png" alt="Facebook" />
+          <mj-image width="75px" src="https://klaver.design/lavva/instagram.png" alt="Instagram" />
+        </mj-text>
+        <mj-text color="#FFFFFF" mj-class="p-2" align="center">
+          No longer want to receive these emails? <a href="#" style="color: #fff; text-decoration: underline;">Unsubscribe</a>
+        </mj-text>
+        <mj-text color="#FFFFFF" mj-class="p-2" align="center">
+          Lavva is a registered trademark of Lavva Inc. All rights reserved.
         </mj-text>
       </mj-column>
   </mj-body>
